@@ -118,3 +118,6 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outli
   .block { padding-top: 64px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .btn { transition: none; } }
+
+.checks li.ai { color: var(--ink); }
+.checks li.ai::before { background: var(--accent); }
